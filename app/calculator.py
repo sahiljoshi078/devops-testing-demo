@@ -12,3 +12,4 @@ def apply_discount(amount: float, discount_percent: float) -> float:
 
     discounted = amount * (1 - discount_percent / 100)
     return round(discounted, 2)
+
